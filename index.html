@@ -1,31 +1,15 @@
 <!DOCTYPE html>
-
-<html
- 
-lang="en">
-
+<html lang="en">
 <head>
-
-    
-<meta
- 
-charset="UTF-8">
-
-    
-<meta
- 
-name="viewport"
- 
-content="width=device-width, initial-scale=1.0">
-
-    
-<title>Austin Robertson</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Robertson</title>
     <style>
         body {
             font-family: sans-serif;
             margin: 0;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
             min-height: 100vh;
             background-color: #f5f5f5;
@@ -35,44 +19,29 @@ content="width=device-width, initial-scale=1.0">
         .name-text {
             font-size: 48px;
             font-weight: bold;
-            margin-bottom: 30px;
-        }
-
-        .about-section {
-            background-color: #f0f0f0;
-            padding: 30px;
-            border-radius: 10px;
-        }
-
-        .about-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
+            text-align: center;
             margin-bottom: 20px;
         }
 
-        .about-header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
+        .intro-text {
+            font-size: 18px;
+            text-align: center;
         }
 
-        .about-text {
-            line-height: 1.5;
+        .profile-image {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <img src="your-profile-image.jpg" alt="Austin Robertson" class="profile-image">
     <div class="name-text">
         I am Austin Robertson
     </div>
-
-    <div class="about-section">
-        <img src="your-image.jpg" alt="Austin Robertson" class="about-image">
-        <h2 class="about-header">About Me</h2>
-        <p class="about-text">
-            Hello, All! I am an aspiring data scientist and cyber security professional. My goal in life is to help Humanity transition into an inspiring & sustainable future in any way possible.
-        </p>
+    <div class="intro-text">
+        Hello, All! I am an aspiring data scientist and cyber security professional. My goal in life is to help Humanity transition into an inspiring & sustainable future in any way possible.
     </div>
 </body>
 </html>
